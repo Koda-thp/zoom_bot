@@ -17,16 +17,16 @@ def sign_in():
     pyautogui.moveTo(grand_btn)
     pyautogui.doubleClick()
     print('full screen')
-    time.sleep(1)
+    time.sleep(460)
     pyautogui.keyDown('alt')  # hold down the shift key
     pyautogui.press('a')     # press the left arrow key
     pyautogui.keyUp('alt')    # release the shift key
     print('mute')
-    time.sleep(1)
+    time.sleep(460)
     pyautogui.keyDown('alt')  # hold down the shift key
     pyautogui.press('h')     # press the left arrow key
     pyautogui.keyUp('alt')    # release the shift key
-    time.sleep(2)
+    time.sleep(460)
     pyautogui.write('Bonjour, desolé pour le retard jai des gros soucis avec mon pc il plante souvent mais je suis la')
     pyautogui.press('enter') 
     print('appelle')
